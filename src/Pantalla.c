@@ -32,7 +32,7 @@ int buscarLibre(Pantalla array[], int *posicion, int tam) {
 			if (array[i].IsEmpty == 1) {
 				*posicion = i;
 				rtn = 0;
-				break;
+				break;   ////Prueba 1
 			}
 		}
 	}
